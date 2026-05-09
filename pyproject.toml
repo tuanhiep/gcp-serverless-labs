@@ -1,0 +1,9 @@
+[project]
+name = "gcp-serverless-labs"
+version = "0.1.0"
+description = "Google Cloud serverless learning labs."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
